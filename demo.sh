@@ -33,6 +33,7 @@ echo -e "ARRAY: ${ARRAY[@]} \n"
 
 # Operators
 # There's many operators
+# https://www.tutorialspoint.com/unix/unix-basic-operators.htm
 # Arithmetic, Relational, Boolean, String, File Test
 # Uses the backtick (under tilda ~) for arithmetic
 EXP=`expr 1 + 1`
@@ -40,10 +41,11 @@ echo -e $EXP "\n"
 
 
 # if...else
-# Uses brackets for other operators
 if [ 1 == 1 ]
 then
     echo -e Yes "\n"
+else
+    echo No
 fi
 
 

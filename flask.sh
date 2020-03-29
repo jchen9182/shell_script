@@ -39,7 +39,7 @@ def hello_world():
 
 if __name__ == \"__main__\":
     app.debug = True
-    app.run(\"0.0.0.0\")" >> app.py
+    app.run()" >> app.py
 
 # Make CSS
 touch static/styles/style.css
@@ -52,5 +52,4 @@ touch static/js/script.js
 echo "console.log(\"is this linked\")" >> static/js/script.js
 
 # Run
-#xdg-open "http://127.0.0.1:5000/"
 python3 app.py
